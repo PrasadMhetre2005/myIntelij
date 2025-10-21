@@ -17,7 +17,8 @@ public class substringBacktraking {
 
         public static void main(String[] args) {
             String str ="prasad";
+            SubStringPrint(str,"",0);
 
-            
+
         }
     }
