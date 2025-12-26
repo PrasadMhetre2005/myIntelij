@@ -33,11 +33,23 @@ public class ArrayList_Cret {
             int temp= list.get(inx1);
             list.set(inx1, list.get(inx2));
             list.set(inx2,temp);
-
-
             System.out.println();
 
         }
+
+    }
+
+    public void multidimentionList(ArrayList<Integer> mainList,ArrayList<Integer> currlist){
+
+        for (int i=0;i<mainList.size();i++){
+
+
+
+            for (int j=0 ;j<currlist.size();j++){
+                        
+            }
+        }
+
     }
     public static void main(String[] args) {
         ArrayList<Integer> list = new ArrayList<>();
