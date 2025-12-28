@@ -4,7 +4,7 @@ public class BinaryTree {
 
     // ---------------- NODE CLASS ----------------
     class Node {
-        int data;
+        int data, node;
         Node left;
         Node right;
 
