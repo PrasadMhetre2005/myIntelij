@@ -1,5 +1,7 @@
 package DSAbyShraddha.Linked_List;
 
+import static DSAbyShraddha.Linked_List.Delation_operration_LL.Delate_first_Node;
+import static DSAbyShraddha.Linked_List.Delation_operration_LL.Delate_secondlast;
 import static DSAbyShraddha.Linked_List.impl_singly_LL.*;
 
 public class LL_Main {
@@ -11,8 +13,12 @@ public class LL_Main {
 
 
         Insert_atEnd(head,6);
-        head=Insert_atBeggining(head,8);
+        head=Delate_first_Node(head);
+        Insert_atPos(head,67,2);
+        Delate_secondlast(head);
+
         printList(head);
+
 
 
 

@@ -26,6 +26,36 @@ public class impl_singly_LL {
         return newnode;
     }
 
+    static Node Insert_atPos(Node head, int data,int pos){
+
+        if(pos<1){
+            return head;
+        }
+        if(pos==1){
+            Node newnode = new Node(data);
+            newnode.next=head;
+            return newnode;
+        }
+
+        Node curr=head;
+         for (int i=1;i<pos-1 && curr!=null;i++){
+             curr=curr.next;
+
+
+
+
+        }
+        if(curr==null){
+            return head;
+        }
+
+        Node newnode=new Node(data);
+        newnode.next=curr.next;
+        curr.next=newnode;
+        return head;
+
+    }
+
     static void Transvers_LL(Node head){
         while (head!=null){
             System.out.print(head.data);
