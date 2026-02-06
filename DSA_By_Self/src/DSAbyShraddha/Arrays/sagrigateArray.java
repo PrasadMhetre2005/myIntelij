@@ -8,11 +8,13 @@ public class sagrigateArray {
         int last=arr.length-1;
 
         while (first<last){
+
             if (arr[first]==0) first++;
 
 
         }
         while (first<last){
+
             if (arr[last]==1) last--;
         }
 
