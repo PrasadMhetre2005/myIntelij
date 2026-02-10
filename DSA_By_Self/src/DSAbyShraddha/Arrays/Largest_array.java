@@ -46,6 +46,7 @@ public class Largest_array {
         int numbers[] ={23,45,67,78,54};
         Largest_array obj = new Largest_array();
         System.out.println("the largest no is "+obj.Largest_num(numbers));
+        System.out.println(largest(numbers));
     }
 
 }
