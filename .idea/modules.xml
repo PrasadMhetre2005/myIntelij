@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DSA_By_Self/DSA_By_Self.iml" filepath="$PROJECT_DIR$/DSA_By_Self/DSA_By_Self.iml" />
-      <module fileurl="file://$PROJECT_DIR$/MySmallProject/MySmallProject.iml" filepath="$PROJECT_DIR$/MySmallProject/MySmallProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java_Basics/MySmallProject.iml" filepath="$PROJECT_DIR$/Java_Basics/MySmallProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/my new project.iml" filepath="$PROJECT_DIR$/my new project.iml" />
     </modules>
   </component>
