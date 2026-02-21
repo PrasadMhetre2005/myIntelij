@@ -14,7 +14,7 @@ public class ArrayList_Cret {
 
     }
 
-    public void findMax(ArrayList<Integer> list){
+    public int findMax(ArrayList<Integer> list){
         int max=Integer.MIN_VALUE;
 
         for(int i=0;i<list.size();i++){
@@ -22,8 +22,8 @@ public class ArrayList_Cret {
                 max= list.get(i);
 
             }
-            System.out.println("maximum element is  " + max);
         }
+        return max;
     }
     public void swapNO(ArrayList<Integer> list, int inx1,  int inx2 ) {
 
