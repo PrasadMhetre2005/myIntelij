@@ -7,7 +7,7 @@ public class Pair_Array {
             int current =number[i];
             for (int j=i+1; j<number.length;j++){
 
-                System.out.printf("(%d,%d) ",number[i],number[j]);
+                System.out.printf("(%d,%d) ",current,number[j]);
             }
             System.out.println("");
 
