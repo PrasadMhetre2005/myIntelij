@@ -86,6 +86,8 @@ public class impl_singly_LL {
 class Node{
     int data;
     Node next;
+
+    Node(){}
     public Node(int data){
         this.data=data;
         this.next=null;

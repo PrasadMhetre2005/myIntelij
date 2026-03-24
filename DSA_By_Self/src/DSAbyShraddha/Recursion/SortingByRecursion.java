@@ -13,10 +13,17 @@ class Main {
         arr[min_index] = temp;
         fun2(arr, start_index + 1, end_index);
     }
-
-    private static int minIndex(int[] arr, int startIndex, int endIndex) {
-        return 0;
+    static int minIndex(int[] arr, int start, int end) {
+        int min = start;
+        for (int i = start + 1; i <= end; i++) {
+            if (arr[i] < arr[min]) {
+                min = i;
+            }
+        }
+        return min;
     }
+
+
 
     void BubbleSort(int[] arr, int n) {
         if (n == 1)
