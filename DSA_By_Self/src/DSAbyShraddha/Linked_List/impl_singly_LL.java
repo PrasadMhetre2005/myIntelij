@@ -95,5 +95,32 @@ class Node{
 
 }
 
+public Node RemoveNOde(Node head){
+    Stack <Node> st= new Stack<>();
+    Node temp=head;
+    while(temp!=null){
+        if(st.size()==0) st.push(temp);
+        else if(temp.data<=st.peek().data) st.push(temp);
+        else{
+            while (st.size()>0 && st.peek().data<temp.data) st.pop();
+
+            st.push(temp);
+        }
+
+
+
+
+
+
+        temp=temp.next;
+    }
+    while (st.size()>0){
+        Node top=st.pop();
+        top.next=temp;
+        temp=top;
+    }
+    return temp;
+}
+
 
 
